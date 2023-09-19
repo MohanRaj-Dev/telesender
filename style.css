@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+#form{
+    padding: 20px;
+    border: 1px solid black;
+    color: black;
+}
+#form > label{
+    font-family: sans-serif;
+    margin-right: 10px;
+    color: black;
+}
+input{
+    height: 2rem;
+    border: 1px solid black;
+}
+button{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    position: relative;
+    left: 12.5rem;
+    padding: 10px 20px;
+}
